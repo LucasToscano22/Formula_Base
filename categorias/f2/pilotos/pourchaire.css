@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* Header */
+body{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    display: grid;
+    height: 230px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 180px 50px;
+    grid-template-areas:
+        "logo nome"
+        "nav nav";
+    background-color: #010F1C;
+    justify-items: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    
+}
+#nav{
+    grid-area: nav;
+    background-color: #F17300;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+}
+.pnav{
+    color: #010F1C;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.pnav:hover{
+    text-decoration: underline;
+
+}
+#logo{
+    grid-area: logo;
+    background-color: #010F1C;
+}
+#nome{
+    grid-area: nome;
+    background-color: #010F1C;
+}
+#nome1{
+    height: 160px;
+}
+#logo1{
+    height: 160px;
+}
+
+/* Main */
+
+#container1{
+  display: grid;
+  grid-template-columns: 1100px 500px;
+  grid-template-areas: "bannerdopiloto instagram";
+  justify-content: space-evenly;
+  margin-top: 85px;
+  
+  
+}
+
+
+#bannerdopiloto{
+  width: 1100px;
+  /* margin-top: 85px; */
+  /* margin-left: 370px; */
+  grid-area: bannerdopiloto;
+
+}
+#instagram{
+  grid-area: instagram;
+  width: 100px;
+}
+.historicodopiloto{
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #F8F9FA;
+    margin: 0 auto;
+}
+.historicodopilotocor{
+    background-color: #EAECF0;
+}
+
+td, th{
+    border: 1px black solid;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.um{
+    background-color: #ffff7f;
+    text-align: center;
+}
+.dois{
+    background-color: #DFDFDF;
+    text-align: center;
+}
+.tres{
+    background-color: #fecf72;
+    text-align: center;
+}
+a, a:visited{
+    text-decoration: none;
+    color: #010F1C;
+
+}
+a:hover, a:visited:hover{
+    color: #c05d00;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#container3{
+    display: grid;
+    height: 40px;
+    background-color: #605B56;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "whatsapp numero gmail email github nome";
+    margin-top: 400px;
+    margin-left: -10px;
+    margin-right: -10px;
+    justify-items: center;
+    align-items: baseline;
+
+ }
+ 
+ #github{
+    grid-area: github;
+ }
+ #nome1{
+    grid-area: nome;
+    justify-self: start;
+    margin-left: 17px;
+ }
+ #gmail1{
+    grid-area: gmail;
+ }
+ #email{
+    grid-area: email;
+    justify-self: start;
+    margin-left: 17px;
+ }
+ #whatsapp1{
+    grid-area: whatsapp;
+ }
+ #numero{
+    grid-area: numero;
+    justify-self: start;
+    margin-left: 17px;
+ }
+ .svg{
+    width: 15px;
+    height: 15px;
+    color: #F17300;
+ }
+.p2{
+    color: #010F1C;
+    font-size: 15px;
+}

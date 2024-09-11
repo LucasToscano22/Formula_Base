@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@keyframes animacao{
+    from{color: #F17300;}
+    to{color: #c05d00;}
+    
+}
+/* Header */
+body{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 180px 50px;
+    grid-template-areas:
+        "logo nome"
+        "nav nav";
+    background-color: #010F1C;
+    justify-items: center;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    
+}
+#nav{
+    grid-area: nav;
+    background-color: #F17300;
+    justify-self: stretch;
+    align-self: stretch;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+}
+.pnav{
+    color: #010F1C;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+.pnav:hover{
+    text-decoration: underline;
+
+}
+#logo{
+    grid-area: logo;
+    background-color: #010F1C;
+}
+#nome{
+    grid-area: nome;
+    background-color: #010F1C;
+}
+#nome1{
+    height: 160px;
+}
+#logo1{
+    height: 160px;
+}
+
+/* Main */
+
+#tabela{
+  border: 1px black solid;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #EAECF0;
+  box-shadow: 1px 1px 3px black;
+}
+td{
+    border: 1px black solid;
+    padding-left: 8px;
+    padding-right: 8px;
+   
+}
+th{
+    border: 1px black solid;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#container1{
+    height: 1100px;
+    
+}
+.flag{
+    width: 24px;
+    height: 15px;
+
+}
+.um{
+    background-color: #ffff7f;
+    text-align: center;
+}
+.dois{
+    background-color: #DFDFDF;
+    text-align: center;
+}
+.tres{
+    background-color: #fecf72;
+    text-align: center;
+}
+.ponto{
+    background-color: #bffcbf;
+    text-align: center;
+}
+.semponto{
+    background-color: #b2b2fe;
+    text-align: center;
+}
+.ret{
+    background-color: #e2a9ff;
+    text-align: center;
+}
+.branco{
+    background-color: white;
+    text-align: center;
+}
+.dsq{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+table a{
+    text-decoration: none;
+    color: black;
+}
+table a:hover{
+    text-decoration: underline;
+    color: #c05d00;
+}
+#tabela2{
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: #EAECF0;
+    text-align: center;
+    margin-left: 278px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 3px black
+}
+
+section h1{
+    color: #010F1C;
+}
+#tabela3{
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: #F8F9FA;
+    text-align: center;
+    grid-area: equipes;
+    box-shadow: 1px 1px 3px black
+    
+}
+.tabela3cor{
+    background-color: #EAECF0;
+}
+#liderimg{
+    height: 500px;
+    border: 3px #F17300 solid;
+    box-shadow: 2px 2px 6px black
+}
+#containerbaixo{
+    display: grid;
+    grid-template-rows: 75px 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "campeonatodeequipes onboard"
+        "equipes video";
+    justify-items: center;
+    
+}
+#campeonatodeequipes{
+    margin-left: -260px;
+    grid-area: campeonatodeequipes;
+    color: #010F1C;
+}
+
+#atual a{
+    text-decoration: none;
+    color: #F17300;
+}
+#atual a:hover{
+    text-decoration: underline;
+    color: #c05d00;
+    animation-name: animacao;
+    animation-duration: 0.5s;
+}
+#containerinicial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 500px;
+    grid-template-areas:
+        "h2databela atual"
+        "tabeladocalendario lider";
+    align-items: center;
+    justify-items: center;
+}
+#schedule{
+    grid-area: proximaetapa;
+}
+#atual{
+    grid-area: atual;
+    color: #010F1C;
+    display: inline-block;
+    margin-left: 74px;
+    
+}
+#lider{
+    grid-area: lider;
+    
+}
+#h2databela{
+    
+    grid-area: h2databela;
+    display: inline-block;
+    margin-left: -172px;
+    margin-top: 163px;
+   
+}
+#tabeladocalendario{
+    grid-area: tabeladocalendario;
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: #F8F9FA;
+    margin-left: 17px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px black
+}
+.tabeladocalendarioajuste{
+    background-color: #EAECF0;
+}
+#f2logo{
+    height: 193px;
+    margin: 0 auto;
+}
+#f2{
+    color: #010F1C;
+    font-size: 35px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+#onboard{
+    grid-area: onboard;
+
+}
+#video{
+    grid-area: video;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+#container3{
+    display: grid;
+    height: 40px;
+    background-color: #605B56;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "whatsapp numero gmail email github nome";
+    margin-top: 400px;
+    margin-left: -10px;
+    margin-right: -10px;
+    justify-items: center;
+    align-items: baseline;
+
+ }
+ 
+ #github{
+    grid-area: github;
+ }
+ #nome1{
+    grid-area: nome;
+    justify-self: start;
+    margin-left: 17px;
+ }
+ #gmail1{
+    grid-area: gmail;
+ }
+ #email{
+    grid-area: email;
+    justify-self: start;
+    margin-left: 17px;
+ }
+ #whatsapp1{
+    grid-area: whatsapp;
+ }
+ #numero{
+    grid-area: numero;
+    justify-self: start;
+    margin-left: 17px;
+ }
+ .svg{
+    width: 15px;
+    height: 15px;
+    color: #F17300;
+ }
+.p2{
+    color: #010F1C;
+    font-size: 15px;
+}
+
+
+
+
